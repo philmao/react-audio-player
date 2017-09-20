@@ -1,8 +1,8 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /*background: #A2453D;*/
 }
 
-a {
-  color: #00B7FF;
+div.container {
+	max-width: 900px;
+	margin: 0 auto;
 }

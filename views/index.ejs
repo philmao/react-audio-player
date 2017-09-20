@@ -5,7 +5,23 @@
     <link rel='stylesheet' href='/css/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <div class="container">
+      <div class="row">
+        <div class="columns large-6 text-center panel">
+        	<h1><%= title %></h1>
+        	<p>Welcome to <%= title %></p>
+		    <div id="react-app"></div>
+			<br/><br/>
+			<ul class="text-left">
+				<li>Space bar will pause/play (after pressing play button).</li>
+				<li>Move playback forward with right arrow.</li>
+				<li>Move playback backward with left arrow.</li>
+				<li>Mouse wheel will advance and backup playback as well.</li>
+			</ul>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="/javascripts/build.js"></script>
   </body>
 </html>
